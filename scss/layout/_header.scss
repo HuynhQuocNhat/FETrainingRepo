@@ -1,0 +1,27 @@
+.header-block {
+    max-width: 1500px;
+    margin: auto;
+    position: relative;
+    color: #fff;
+    img {
+        width: 100%;
+    }
+    &__logo-block {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        margin-top: 16px;
+        &__text--opacity {
+            background-color: #000;
+            opacity: 0.75;
+            padding: 8px 16px;
+        }
+        &__text {
+            letter-spacing: 4px;
+            font-weight: 400;
+            font-family: $fonth1;
+            font-size: 36px;
+        }
+    }
+}

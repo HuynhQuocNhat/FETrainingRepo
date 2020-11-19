@@ -1,0 +1,110 @@
+.clear {
+  clear: both;
+}
+
+.title-block {
+  padding: 32px 16px;
+}
+.title-block__text {
+  font-family: "Segoe UI", Arial, sans-serif;
+  font-weight: 400;
+  border-bottom: 1px solid #ccc;
+  font-size: 24px;
+  padding: 16px 0;
+}
+
+.top-block {
+  position: fixed;
+  width: 100%;
+  background-color: aquamarine;
+  z-index: 1;
+  -webkit-box-shadow: 0px 9px 16px -9px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 0px 9px 16px -9px rgba(0, 0, 0, 0.75);
+  box-shadow: 0px 9px 16px -9px rgba(0, 0, 0, 0.75);
+}
+.top-block__padding {
+  padding: 8px 16px;
+  letter-spacing: 4px;
+  line-height: 1.5;
+}
+.top-block__padding__refer-item {
+  padding: 8px 16px;
+  display: block;
+  float: left;
+  text-decoration: none;
+  color: black;
+}
+.top-block__padding__refer-item--home {
+  float: left;
+}
+.top-block__padding__menu {
+  float: right;
+}
+
+.header-block {
+  max-width: 1500px;
+  margin: auto;
+  position: relative;
+  color: #fff;
+}
+.header-block img {
+  width: 100%;
+}
+.header-block__logo-block {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  margin-top: 16px;
+}
+.header-block__logo-block__text--opacity {
+  background-color: #000;
+  opacity: 0.75;
+  padding: 8px 16px;
+}
+.header-block__logo-block__text {
+  letter-spacing: 4px;
+  font-weight: 400;
+  font-family: "Segoe UI", Arial, sans-serif;
+  font-size: 36px;
+}
+
+.listhouse-block {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  padding: 0 8px;
+}
+.listhouse-block__house {
+  display: inline;
+  position: relative;
+  padding: 0 8px;
+  width: calc(100%/4 - 16px);
+  margin-bottom: 16px;
+}
+.listhouse-block__house__name {
+  display: inline;
+  position: absolute;
+  font-size: 15px;
+  line-height: 1.5;
+  color: #fff;
+  background-color: #000;
+  padding: 8px 16px;
+}
+.listhouse-block__house__image {
+  width: 100%;
+}
+
+body {
+  font-family: Verdana, sans-serif;
+  font-size: 15px;
+  margin: 0;
+}
+
+.container {
+  max-width: 1500px;
+  margin: auto;
+  padding: 8px 16px;
+}
+
+/*# sourceMappingURL=main.css.map */

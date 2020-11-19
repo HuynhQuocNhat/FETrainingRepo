@@ -1,0 +1,13 @@
+.clear {
+    clear: both;
+}
+.title-block {
+    padding: 32px 16px;
+    &__text {
+        font-family: $fonth3;
+        font-weight: 400;
+        border-bottom: 1px solid #ccc;
+        font-size: $fontsizeh3;
+        padding: 16px 0;
+    }
+}

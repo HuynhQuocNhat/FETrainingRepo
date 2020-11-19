@@ -1,0 +1,25 @@
+.listhouse-block {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding: 0 8px;
+    &__house {
+        display: inline;
+        position: relative;
+        padding: 0 8px;
+        width: calc(100%/4 - 16px);
+        margin-bottom: 16px;
+        &__name {
+            display: inline;
+            position: absolute;
+            font-size: 15px;
+            line-height: 1.5;
+            color: #fff;
+            background-color: #000;
+            padding: 8px 16px;
+        }
+        &__image {
+            width: 100%;
+        }
+    }
+}

@@ -1,0 +1,27 @@
+.top-block {
+    position: fixed;
+    width: 100%;
+    background-color: aquamarine;
+    z-index: 1;
+    -webkit-box-shadow: 0px 9px 16px -9px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 0px 9px 16px -9px rgba(0, 0, 0, 0.75);
+    box-shadow: 0px 9px 16px -9px rgba(0, 0, 0, 0.75);
+    &__padding {
+        padding: 8px 16px;
+        letter-spacing: 4px;
+        line-height: 1.5;
+        &__refer-item {
+            padding: 8px 16px;
+            display: block;
+            float: left;
+            text-decoration: none;
+            color: black;
+            &--home {
+                float: left;
+            }
+        }
+        &__menu {
+            float: right;
+        }
+    }
+}
