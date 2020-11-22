@@ -10,4 +10,11 @@
         font-size: $fontsizeh3;
         padding: 16px 0;
     }
+    &--nopadding {
+        padding-top: 0px;
+        padding-bottom: 0px;
+        img {
+            max-width: 100%;
+        }
+    }
 }

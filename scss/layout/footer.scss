@@ -1,0 +1,11 @@
+.footer-block {
+    padding: 16px 0;
+    background-color: #000;
+    &__text {
+        text-align: center;
+        color: #fff;
+        &__link {
+            color: #fff;
+        }
+    }
+}

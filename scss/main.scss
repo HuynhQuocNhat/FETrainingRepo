@@ -3,7 +3,13 @@
 @import 'base/typography';
 
 @import 'layout/navigation';
-@import 'layout/header';
 @import 'layout/grid';
+@import 'layout/header';
+@import 'layout/footer';
+@import 'layout/forms.scss';
+
+@import 'components/_buttons';
 
 @import 'pages/home';
+
+@import 'reponsive/reponsive.scss'

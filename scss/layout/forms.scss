@@ -1,0 +1,13 @@
+.form-block {
+    line-height: 1.5;
+    &__input {
+        padding: 8px;
+        display: block;
+        width: calc(100% - 16px);
+        display: block;
+        border: 1px solid #ccc;
+        margin-bottom: 16px;
+        font-family: $fontForm;
+        line-height: 1.5;
+    }
+}
